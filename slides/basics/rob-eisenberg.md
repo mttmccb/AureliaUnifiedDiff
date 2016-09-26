@@ -1,5 +1,5 @@
 ### Rob Eisenberg
-![](../../assets/caliburn.png) <!-- .element: class="plain" style="height:15vh" --> ![](../../assets/durandaljs.png) <!-- .element: class="plain" style="height:15vh" --> ![](../../assets/angularjs.png) <!-- .element: class="plain" style="height:15vh" --> ![](../../assets/aurelia-logo.png) <!-- .element: class="plain" style="height:15vh" -->
+![](assets/caliburn.png) <!-- .element: class="plain" style="height:15vh" --> ![](assets/durandaljs.png) <!-- .element: class="plain" style="height:15vh" --> ![](assets/angularjs.png) <!-- .element: class="plain" style="height:15vh" --> ![](assets/aurelia-logo.png) <!-- .element: class="plain" style="height:15vh" -->
 
 - **2008** Caliburn / Caliburn Micro (MVVM, XAML, Silverlight)
 - **2012** [Durandal](http://durandaljs.com/) (jQuery, Knockout, RequireJS)
