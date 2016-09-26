@@ -1,6 +1,6 @@
 ### [aurelia-cli](https://github.com/aurelia/cli)
 
-* ![](assets/LESS_logo.svg) <!-- .element: class="plain vmiddle" height="75" -->
+* ![](assets/LESS_Logo.svg) <!-- .element: class="plain vmiddle" height="75" -->
 ![](assets/sass.png) <!-- .element: class="plain vmiddle" height="75" -->
 ![](assets/stylus-logo.svg) <!-- .element: class="plain vmiddle" height="75" -->
 ![](assets/postcss.svg) <!-- .element: class="plain vmiddle" height="75" -->
