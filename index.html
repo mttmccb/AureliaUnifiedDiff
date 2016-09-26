@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>The clean and DRY conventions of Aurelia</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+		<link rel="stylesheet" href="css/overrides.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="slides/1-title.md" data-background="assets/desert.jpg"></section>
+				<section data-markdown="slides/whoami.md" data-background="assets/bluesky2.jpg" class="blur-background center"></section>
+				<section>
+					<section class="center">
+						<img src="assets/iamdevloper.png" class="plain"/>
+					</section>
+					<section data-markdown="slides/modern-javascript/modern-javascript.md"></section>
+					<section data-markdown="slides/modern-javascript/es5.md"></section>
+					<section data-markdown="slides/modern-javascript/transpilation.md"></section>
+					<section data-markdown="slides/modern-javascript/es2015.md"></section>
+					<section data-markdown="slides/modern-javascript/es.next.md"></section>
+					<section data-markdown="slides/modern-javascript/typing.md"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/basics/what.md"></section>
+					<section data-markdown="slides/basics/rob-eisenberg.md"></section>
+					<section data-markdown="slides/basics/team.md"></section>
+					<section data-markdown="slides/getting-started/support.md"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/getting-started/skeleton-navigation.md"></section>
+					<section data-markdown="slides/getting-started/cli.md"></section>
+					<section data-markdown="slides/getting-started/plugins.md"></section>
+				</section>
+				<section>
+					<section data-markdown="slides/features/routing.md"></section>
+					<section data-markdown="slides/features/dependency-injection.md"></section>
+					<section data-markdown="slides/features/component-lifecycle.md"></section>
+					<section data-markdown="slides/features/binding.md"></section>
+					<section data-markdown="slides/features/value-converters.md"></section>
+					<section data-markdown="slides/features/custom-elements.md"></section>
+				</section>
+				<section data-markdown="slides/current-status.md"></section>
+				<section data-markdown="slides/using.md"></section>
+				<section><img src="assets/questions.gif" style="width: 100%" class="plain"></section>
+				<section><img src="assets/confusedcat.gif" style="width: 100%" class="plain"></section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				width: "90%",
+    		height: "90%",
+				history: true,
+				slideNumber: true,
+				center: false,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+        	{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
